@@ -1,0 +1,21 @@
+.header__div {
+    display: grid;
+    grid-template-rows: 2fr 1fr .5fr 1.5fr;
+}
+
+.header__h1 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: 500;
+    grid-row: 2;
+}
+
+.header__h2 {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    font-size: .8em;
+    font-weight: 400;
+    font-style: italic;
+    grid-row: 3;
+}
