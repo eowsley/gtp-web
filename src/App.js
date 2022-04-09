@@ -7,14 +7,24 @@ import WorkingWithUs from './components/WorkingWithUs'
 import WorkingWithUsBanner from './components/WorkingWithUsBanner'
 import {Routes, Route} from 'react-router-dom'
 import {HashLink as Link} from 'react-router-hash-link'
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Nav/>
-      <WorkingWithUsBanner/>
-      <Footer/>
+    <div className='app__container'>
+      <div className='app__header__div'>
+        <Header/>
+        <Nav/>
+      </div>
+      <div className='app__aboutus__div'>
+        <AboutUs/>
+      </div>
+      <div className='app__workingwithus__div'>
+        <WorkingWithUsBanner/>
+      </div>
+      <div className='app__footer__div'>
+        <Footer/>
+      </div>
       <Routes>
         <Route path='/about' element={<WorkingWithUs/>}></Route>
       </Routes>
