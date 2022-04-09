@@ -1,6 +1,6 @@
 .header__div {
     display: grid;
-    grid-template-rows: 1fr .5fr .25fr 1fr;
+    grid-template-rows: 1fr .5fr .25fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
