@@ -1,5 +1,16 @@
 .aboutus__div {
-    background-image: url(./assets/gtp-homepage\ pic.jpeg);
-    height: 40%;
-    width: 100%;
+    background-image: url(./assets/gtp-homepage-pic.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    text-align: center;
+}
+
+.aboutus__h3 {
+    color:white;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
