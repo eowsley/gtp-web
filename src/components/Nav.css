@@ -1,4 +1,20 @@
 .nav__div {
-    grid-row: 4;
-    
+    display: flex;
+    font-family: 'Nunia', sans-serif;
+    padding-left: 1.5em;
+}
+
+.nav__btn {
+  background-color: white;
+  border: none;
+  border-radius: 4%;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: .8em;
+  transition: 0.3s;
+}
+
+.nav__btn:hover {
+  background-color: rgb(43, 142, 199);
 }
