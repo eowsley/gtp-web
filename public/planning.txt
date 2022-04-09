@@ -1,0 +1,9 @@
+Component Heirarchy
+App
+        - Header
+            -Nav
+        - About Us - Body
+        - Working With Us Banner --> Links to WWU component
+        - Footer
+    Routes
+        - Working With Us 
