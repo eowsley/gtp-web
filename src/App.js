@@ -5,7 +5,8 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import WorkingWithUs from './components/WorkingWithUs'
 import WorkingWithUsBanner from './components/WorkingWithUsBanner'
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
+import {HashLink as Link} from 'react-router-hash-link'
 
 function App() {
   return (
