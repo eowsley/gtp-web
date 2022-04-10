@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from './Nav';
 import './Header.css';
-import logo from './assets/logo.png';
+import logo from './assets/logoNoWord.png';
 
 function Header(props) {
     return (
