@@ -2,14 +2,45 @@
     background-image: url(./assets/gtp-homepage-pic.jpeg);
     background-position: center;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.aboutus__overlay{
+    background-color: rgba(0, 0, 0, 0.541);
+    background-size: cover;
+    height: 70vh;
 }
 
 .aboutus__h3 {
+    padding-top: 4.2em;
+    padding-left: 5em;
+    padding-right: 5em;
     color:white;
     font-size: 2em;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.aboutus__p {
+    color: white;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-bottom: 1em;
+    font-size: .8em;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.aboutus__btn {
+    height: 2.5em;
+    width: 10em;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    color:rgb(43, 142, 199);
+    font-weight: 500;
+    border: none;
+    border-radius: 2%;
 }

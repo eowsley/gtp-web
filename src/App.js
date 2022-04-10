@@ -1,6 +1,4 @@
 import {Routes, Route} from 'react-router-dom'
-import './App.css';
-import AboutUs from './components/AboutUs';
 import Contact from './components/Contact'
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -8,6 +6,7 @@ import Home from './components/Home';
 import Nav from './components/Nav';
 import OurWork from './components/OurWork'
 import WorkingWithUs from './components/WorkingWithUs';
+import './App.css';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import WorkingWithUs from './WorkingWithUs';
 import {Link} from 'react-router-dom'
+import WorkingWithUs from './WorkingWithUs';
 import './WorkingWithUsBanner.css'
 
 function WorkingWithUsBanner(props) {
