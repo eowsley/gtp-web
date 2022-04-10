@@ -10,3 +10,9 @@ App
                 - Our Work
                 - Contact Us
         - Footer
+
+
+Using State to keep selected nav highlighted
+
+upon click of nav, set state to specific name of Link
+if state = link, keep link highlighted

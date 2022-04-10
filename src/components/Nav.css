@@ -12,9 +12,9 @@ nav {
   padding: 10px 25px;
   text-align: center;
   font-size: .8em;
-  transition: 0.3s;
 }
 
 .nav__btn:hover {
+  transition: color 0.3s linear;
   background-color: rgb(43, 142, 199);
 }
