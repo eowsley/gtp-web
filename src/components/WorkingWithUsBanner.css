@@ -1,15 +1,20 @@
 .workingwithusbanner__div {
     background-color: gray;
     padding-top: 0em;
-    height: 20vh;
+    height: 25vh;
     font-size: 3em;
     text-align: center;
 }
 
 a {
-    color:white;
     text-decoration: none;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 auto
+}
+
+p {
+    color:white;
+    margin: 0 auto;
+    padding-top: 1.5em;
 }

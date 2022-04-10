@@ -1,6 +1,6 @@
 import React from 'react';
-import './Nav.css';
 import {Link} from 'react-router-dom';
+import './Nav.css';
 
 
 function Nav(props) {
@@ -9,13 +9,13 @@ function Nav(props) {
 				<Link to='/'>
 					<button className='nav__btn'>HOME</button>
 				</Link>
-				<Link to='/about'>
+				<Link to='/aboutus'>
 					<button className='nav__btn'>WORKING WITH US</button>
 				</Link>
-				<Link to='/about'>
+				<Link to='/ourwork'>
 					<button className='nav__btn'>OUR WORK</button>
 				</Link>
-				<Link to='/'>
+				<Link to='/contactus'>
 					<button className='nav__btn'>CONTACT US</button>
 				</Link>
 			</nav>
