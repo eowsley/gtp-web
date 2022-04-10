@@ -1,9 +1,12 @@
 Component Heirarchy
 App
         - Header
-            -Nav
-        - About Us - Body
-        - Working With Us Banner --> Links to WWU component
+        - Nav
+            Routes & Links
+                - Home
+                    -About Us - Body
+                    - Working With Us Banner --> Links to WWU component
+                - Working With Us 
+                - Our Work
+                - Contact Us
         - Footer
-    Routes
-        - Working With Us 

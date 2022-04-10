@@ -1,35 +1,31 @@
-import logo from './logo.svg';
+import {Routes, Route} from 'react-router-dom'
 import './App.css';
+import AboutUs from './components/AboutUs';
+import Contact from './components/Contact'
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Home from './components/Home';
 import Nav from './components/Nav';
-import WorkingWithUs from './components/WorkingWithUs'
-import WorkingWithUsBanner from './components/WorkingWithUsBanner'
-import {Routes, Route} from 'react-router-dom'
-import {HashLink as Link} from 'react-router-hash-link'
-import AboutUs from './components/AboutUs';
+import OurWork from './components/OurWork'
+import WorkingWithUs from './components/WorkingWithUs';
 
 function App() {
   return (
-    <div className='app__container'>
-      <div className='app__header__div'>
-        <Header/>
-        <Nav/>
-      </div>
-      <div className='app__aboutus__div'>
-        <AboutUs/>
-      </div>
-      <div className='app__workingwithus__div'>
-        <WorkingWithUsBanner/>
-      </div>
-      <div className='app__footer__div'>
-        <Footer/>
-      </div>
-      <Routes>
-        <Route path='/about' element={<WorkingWithUs/>}></Route>
-      </Routes>
-    </div>
-  );
+		<div className='app__container'>
+			<div className='app__header__div'>
+				<Header />
+				<Nav />
+			</div>
+			<Routes>
+				<Route path='/' element={<Home />}></Route>
+				<Route path='/aboutus' element={<WorkingWithUs />}> </Route>
+				<Route path='/ourwork' element={<OurWork />}></Route>
+				<Route path='/contactus' element={<Contact />}></Route>
+			</Routes>
+      
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
