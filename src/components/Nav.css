@@ -21,6 +21,7 @@ nav {
 .link:hover {
   transition: color 0.3s linear;
   background-color: rgb(43, 142, 199);
+  cursor: pointer;
 }
 /* Specific styles for active links */
 .link-active {

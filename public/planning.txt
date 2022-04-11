@@ -12,10 +12,11 @@ App
         - Footer
 
 
-Working With Us layout - grid 
-COL .5fr 1fr .5fr
+Working With Us layout - grid
+COL .5fr .5fr .5fr .5fr
+
 ROW
-    hero image - 1fr
+    hero image - 1fr 
     First text group - .5fr
     Image carousel - .5fr 
     Model 1 - .5fr

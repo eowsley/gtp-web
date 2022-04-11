@@ -10,10 +10,10 @@ a {
     text-decoration: none;
     text-decoration: none;
     font-family: 'Fira Sans', sans-serif;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
-p {
+.workingwithusbanner__p {
     color:white;
     margin: 0 auto;
     padding-top: 1.5em;

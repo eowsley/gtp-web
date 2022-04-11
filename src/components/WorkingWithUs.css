@@ -1,0 +1,12 @@
+.workingwithus__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.workingwithus__heroimg {
+    border: 2px red solid;
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url(./assets/working-with-us.jpeg);
+}

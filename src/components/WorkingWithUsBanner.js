@@ -5,7 +5,7 @@ import './WorkingWithUsBanner.css'
 function WorkingWithUsBanner(props) {
     return (
         <div className='workingwithusbanner__div'>
-            <Link to='/aboutus'><p>Working With Us</p></Link>
+            <Link to='/aboutus'><p className='workingwithusbanner__p'>Working With Us</p></Link>
         </div>
     );
 }
