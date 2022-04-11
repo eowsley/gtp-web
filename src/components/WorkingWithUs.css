@@ -1,12 +1,47 @@
 .workingwithus__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: 2fr 1fr .7fr 1fr 1fr 1fr;
 }
 
 .workingwithus__heroimg {
-    border: 2px red solid;
-    grid-column: 2;
+    grid-column: 1/ span 4;
     grid-row: 1;
     background-image: url(./assets/working-with-us.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.workingwithus__img {
+    height: 100vh;
+    width: auto;
+}
+.workingwithus__text1 {
+    grid-row: 2;
+    grid-column:2 /span 2;
+}
+
+.workingwithus__imgcarousel {
+    grid-row: 3;
+    grid-column: 2 /span 2;
+    border: red 2px solid;
+}
+
+.workingwithus__model1 {
+    grid-row: 4;
+    grid-column: 2 /span 2;
+}
+.workingwithus__model2 {
+    grid-row: 5;
+    grid-column: 2 /span 2;
+}
+.workingwithus__model3 {
+    grid-row: 6;
+    grid-column: 2 /span 2;
+}
+
+.workingwithus__spanbold {
+    font-weight: bold;
 }
