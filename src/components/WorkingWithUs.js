@@ -2,7 +2,7 @@ import React from 'react';
 
 function WorkingWithUs(props) {
     return (
-        <div>
+        <div className='workingwithus__container'>
             Hello from Working With Us
         </div>
     );
