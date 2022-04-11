@@ -9,11 +9,11 @@
 a {
     text-decoration: none;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
-    margin: 0 auto
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 auto;
 }
 
-p {
+.workingwithusbanner__p {
     color:white;
     margin: 0 auto;
     padding-top: 1.5em;

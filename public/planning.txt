@@ -3,7 +3,7 @@ App
         - Header
         - Nav
             Routes & Links
-                - Home
+                - Home 
                     -About Us - Body
                     - Working With Us Banner --> Links to WWU component
                 - Working With Us 
@@ -12,6 +12,13 @@ App
         - Footer
 
 
-Using State to keep selected nav highlighted
-upon click of nav, set state to specific name of Link
-if state = link, keep link highlighted
+Working With Us layout - grid
+COL .5fr .5fr .5fr .5fr
+
+ROW
+    hero image - 1fr 
+    First text group - .5fr
+    Image carousel - .5fr 
+    Model 1 - .5fr
+    Model 2 - .5fr
+    Model 3- .5fr
