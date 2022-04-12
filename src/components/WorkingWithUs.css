@@ -29,6 +29,22 @@
     border: red 2px solid;
 }
 
+.workingwithus__h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+.workingwithus__p {
+    font-size:.8em;
+}
+.workingwithus__ul {
+    padding-left: 2em;
+}
+.workingwithus__li {
+    font-size: .8em;
+}
+
 .workingwithus__model1 {
     grid-row: 4;
     grid-column: 2 /span 2;
@@ -44,4 +60,5 @@
 
 .workingwithus__spanbold {
     font-weight: bold;
+    padding-left: 0em;
 }
