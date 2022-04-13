@@ -1,0 +1,66 @@
+.contact__div {
+}
+
+.contact__heroimg {
+    background-image: url(./assets/contact.jpeg);
+    height: 50vh;
+    width: 100vw;
+    margin: 0 auto;
+    background-position: center;
+    background-size:cover ;
+    
+}
+
+form {
+    padding-left: 4em;
+
+}
+label {
+    color: black;
+    font-size: .8em;
+    margin-bottom: 2em;
+}
+input {
+ width: 25em;
+ height: 2.5em;
+ border-radius: 1.5%;
+ border:1px rgb(180, 180, 180) solid;
+ margin-bottom: 2em;
+ padding-bottom: 2em;
+}
+
+.contact__inputcomment {
+    width: 50em;
+    height: 12em;
+}
+
+.contact__span {
+    font-weight: bold;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+.contact__h2 {
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 550;
+}
+
+.contact__btn {
+    height: 2.7em;
+    width:6em;
+    border-radius: 3%;
+    border: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-weight: bold;
+}
+
+.contact__btn:hover {
+    background-color: rgb(43, 142, 199);
+    color: rgb(53, 53, 53);
+}
+
+@media screen {
+    
+}

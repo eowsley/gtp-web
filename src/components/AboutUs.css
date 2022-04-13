@@ -45,3 +45,8 @@
     border-radius: 2%;
     cursor: pointer;
 }
+
+.aboutus__btn:hover {
+    background-color: rgba(218, 218, 218, 0.5);
+    transition: color 0.3s linear;
+}
