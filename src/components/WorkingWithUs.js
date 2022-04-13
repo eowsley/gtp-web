@@ -14,26 +14,26 @@ function WorkingWithUs(props) {
 						reliability professionals that will partner with you in:{' '}
 					</p>
 					<ul className='workingwithus__ul'>
-                        <li className='workingwithus__li'>
-                            Product specification and UI/UX design
-                        </li>
-                        <li className='workingwithus__li'>
-                            Development of software per your specification
-                        </li>
-                        <li className='workingwithus__li'>Quality assurance</li>
-                        <li className='workingwithus__li'>
-                            Database, cloud hosting and management
-                        </li>
-                        <li className='workingwithus__li'>
-                            On-going project management process
-                        </li>
-                        <li className='workingwithus__li'>
-                            Set-up of a turn-key analytics package
-                        </li>
-                    </ul>
+						<li className='workingwithus__li'>
+							Product specification and UI/UX design
+						</li>
+						<li className='workingwithus__li'>
+							Development of software per your specification
+						</li>
+						<li className='workingwithus__li'>Quality assurance</li>
+						<li className='workingwithus__li'>
+							Database, cloud hosting and management
+						</li>
+						<li className='workingwithus__li'>
+							On-going project management process
+						</li>
+						<li className='workingwithus__li'>
+							Set-up of a turn-key analytics package
+						</li>
+					</ul>
 				</div>
 
-				<div className='workingwithus__imgcarousel'> img carousel </div>
+				<div className='workingwithus__subheroimg'> img </div>
 
 				<div className='workingwithus__model1'>
 					<h3 className='workingwithus__h3'>We offer 3 models:</h3>
@@ -51,6 +51,8 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
+					<div className='workingwithus__img1__1'> img </div>
+					<div className='workingwithus__img1__2'> img </div>
 				<div className='workingwithus__model2'>
 					<ul>
 						<li className='workingwithus__li'>
@@ -67,6 +69,8 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
+					<div className='workingwithus__img2__1'> img </div>
+					<div className='workingwithus__img2__2'> img </div>
 				<div className='workingwithus__model3'>
 					<ul>
 						<li className='workingwithus__li'>
@@ -82,6 +86,12 @@ function WorkingWithUs(props) {
 							structure.
 						</li>
 					</ul>
+				</div>
+					<div className='workingwithus__img3__1'> img </div>
+					<div className='workingwithus__img3__2'> img </div>
+
+				<div className='workingwithus__team'>
+					<h2 className='workingwithus__h2'>Meet The Team</h2>
 				</div>
 			</div>
 		);

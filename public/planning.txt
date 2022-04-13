@@ -16,9 +16,13 @@ Working With Us layout - grid
 COL .5fr .5fr .5fr .5fr
 
 ROW
-    hero image - 1fr 
-    First text group - .5fr
-    Image carousel - .5fr 
-    Model 1 - .5fr
-    Model 2 - .5fr
-    Model 3- .5fr
+    1 hero image - 1fr 
+    2 First text group - .5fr
+    3 Image carousel - .5fr 
+    4 Model 1 - .5fr
+    5 image -.5fr
+    6 Model 2 - .5fr
+    7 image -.5fr
+    8 Model 3- .5fr
+    9 image -.5fr
+    10 Meet the team - 1fr
