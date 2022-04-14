@@ -41,7 +41,7 @@ function WorkingWithUs(props) {
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
 								Full end-to-end product outsourcing:
-							</span>
+							</span><br/>
 							We will assign a full product POD that includes a Product Manager,
 							UI/UX designer, a Software Development/QA/SRE Team, and a Project
 							Manager that will specify, design, build and deliver the product
@@ -51,14 +51,14 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img1__1'></div>
-					<div className='workingwithus__img1__2'></div>
+				<div className='workingwithus__img1__1'></div>
+				<div className='workingwithus__img1__2'></div>
 				<div className='workingwithus__model2'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
 								Software project outsourcing: 
-							</span>
+							</span><br/>
 							We can build the whole project for you while partnering with you
 							based on your requirements and designs. We will ensure that will
 							stay in close sync by providing updates every sprint. This is most
@@ -69,14 +69,14 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img2__1'></div>
-					<div className='workingwithus__img2__2'></div>
+				<div className='workingwithus__img2__1'></div>
+				<div className='workingwithus__img2__2'></div>
 				<div className='workingwithus__model3'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
 								Team augmentation: 
-							</span>
+							</span><br/>
 							We can augment your staff by assigning full-time and part-time
 							highly trained professionals for frontend development, backend
 							development, quality assurance, database engineers, and site
@@ -87,12 +87,12 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img3__1'></div>
-					<div className='workingwithus__img3__2'></div>
+				<div className='workingwithus__img3__1'></div>
+				<div className='workingwithus__img3__2'></div>
 
-				<div className='workingwithus__team'>
-					<h2 className='workingwithus__h2'>Meet The Team</h2>
-				</div>
+				{/* <div className='workingwithus__team'>
+					<h2 className='workingwithus__h2'>Meet Our Team</h2>
+				</div> */}
 			</div>
 		);
 }

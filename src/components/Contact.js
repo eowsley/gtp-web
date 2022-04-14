@@ -28,7 +28,7 @@ function Contact(props) {
 						<span className='contact__span'>Comment </span> (required)
 					</label>
 					<br />
-					<input
+					<textarea
 						className='contact__inputcomment'
 						type='text'
 						id='comment'
