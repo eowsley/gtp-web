@@ -30,6 +30,12 @@ input {
 }
 
 .contact__inputcomment {
+
+    width: 50em;
+    height: 12em;
+}
+.contact__inputcomment input {
+
     width: 50em;
     height: 12em;
 }

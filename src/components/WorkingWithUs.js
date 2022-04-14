@@ -14,26 +14,26 @@ function WorkingWithUs(props) {
 						reliability professionals that will partner with you in:{' '}
 					</p>
 					<ul className='workingwithus__ul'>
-                        <li className='workingwithus__li'>
-                            Product specification and UI/UX design
-                        </li>
-                        <li className='workingwithus__li'>
-                            Development of software per your specification
-                        </li>
-                        <li className='workingwithus__li'>Quality assurance</li>
-                        <li className='workingwithus__li'>
-                            Database, cloud hosting and management
-                        </li>
-                        <li className='workingwithus__li'>
-                            On-going project management process
-                        </li>
-                        <li className='workingwithus__li'>
-                            Set-up of a turn-key analytics package
-                        </li>
-                    </ul>
+						<li className='workingwithus__li'>
+							Product specification and UI/UX design
+						</li>
+						<li className='workingwithus__li'>
+							Development of software per your specification
+						</li>
+						<li className='workingwithus__li'>Quality assurance</li>
+						<li className='workingwithus__li'>
+							Database, cloud hosting and management
+						</li>
+						<li className='workingwithus__li'>
+							On-going project management process
+						</li>
+						<li className='workingwithus__li'>
+							Set-up of a turn-key analytics package
+						</li>
+					</ul>
 				</div>
 
-				<div className='workingwithus__imgcarousel'> img carousel </div>
+				<div className='workingwithus__subheroimg'> img </div>
 
 				<div className='workingwithus__model1'>
 					<h3 className='workingwithus__h3'>We offer 3 models:</h3>
@@ -41,7 +41,7 @@ function WorkingWithUs(props) {
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
 								Full end-to-end product outsourcing:
-							</span>
+							</span><br/>
 							We will assign a full product POD that includes a Product Manager,
 							UI/UX designer, a Software Development/QA/SRE Team, and a Project
 							Manager that will specify, design, build and deliver the product
@@ -51,12 +51,14 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
+				<div className='workingwithus__img1__1'></div>
+				<div className='workingwithus__img1__2'></div>
 				<div className='workingwithus__model2'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
-								Software project outsourcing:
-							</span>
+								Software project outsourcing: 
+							</span><br/>
 							We can build the whole project for you while partnering with you
 							based on your requirements and designs. We will ensure that will
 							stay in close sync by providing updates every sprint. This is most
@@ -67,12 +69,14 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
+				<div className='workingwithus__img2__1'></div>
+				<div className='workingwithus__img2__2'></div>
 				<div className='workingwithus__model3'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
-								Team augmentation:
-							</span>
+								Team augmentation: 
+							</span><br/>
 							We can augment your staff by assigning full-time and part-time
 							highly trained professionals for frontend development, backend
 							development, quality assurance, database engineers, and site
@@ -83,6 +87,12 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
+				<div className='workingwithus__img3__1'></div>
+				<div className='workingwithus__img3__2'></div>
+
+				{/* <div className='workingwithus__team'>
+					<h2 className='workingwithus__h2'>Meet Our Team</h2>
+				</div> */}
 			</div>
 		);
 }

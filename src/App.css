@@ -10,7 +10,7 @@ body {
   overflow-y: scroll;
   display: grid;
   grid-row: .5fr 2fr .5fr .25fr;
-  border: 2px red solid;
+
 }
 
 h1 {
