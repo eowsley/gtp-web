@@ -51,13 +51,13 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img1__1'> img </div>
-					<div className='workingwithus__img1__2'> img </div>
+					<div className='workingwithus__img1__1'></div>
+					<div className='workingwithus__img1__2'></div>
 				<div className='workingwithus__model2'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
-								Software project outsourcing:
+								Software project outsourcing: 
 							</span>
 							We can build the whole project for you while partnering with you
 							based on your requirements and designs. We will ensure that will
@@ -69,13 +69,13 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img2__1'> img </div>
-					<div className='workingwithus__img2__2'> img </div>
+					<div className='workingwithus__img2__1'></div>
+					<div className='workingwithus__img2__2'></div>
 				<div className='workingwithus__model3'>
 					<ul>
 						<li className='workingwithus__li'>
 							<span className='workingwithus__spanbold'>
-								Team augmentation:
+								Team augmentation: 
 							</span>
 							We can augment your staff by assigning full-time and part-time
 							highly trained professionals for frontend development, backend
@@ -87,8 +87,8 @@ function WorkingWithUs(props) {
 						</li>
 					</ul>
 				</div>
-					<div className='workingwithus__img3__1'> img </div>
-					<div className='workingwithus__img3__2'> img </div>
+					<div className='workingwithus__img3__1'></div>
+					<div className='workingwithus__img3__2'></div>
 
 				<div className='workingwithus__team'>
 					<h2 className='workingwithus__h2'>Meet The Team</h2>
