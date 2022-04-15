@@ -5,11 +5,9 @@ import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from 'react-icons/fa';
 
 function Footer(props) {
 
-
-
     return (
         <div className='footer__div' id="footer">
-            
+
                 <ul className='footer_info' id="info">
                     <li>
                     <FaMapMarkerAlt />
@@ -33,19 +31,3 @@ function Footer(props) {
 }
 
 export default Footer;
-
-// import React from 'react';
-// import './Footer.css';
-// import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from 'react-icons/fa';
-
-// function Footer(props) {
-//     return (
-//         <div className='footer__div' id="footer">
-//             <FaMapMarkerAlt /> address
-//             <FaMobileAlt /> phone
-//             <FaEnvelope />
-//         </div>
-//     );
-// }
-
-// export default Footer;
