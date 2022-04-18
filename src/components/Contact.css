@@ -71,7 +71,7 @@ input {
     color: rgb(53, 53, 53);
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 
 .contact__div {
     width: 100vw;
@@ -81,7 +81,7 @@ form, label, input {
     width:100%;
 }
 .contact__heroimg {
-    width: 110vw;
+    width: 100vw;
 }
 
 
