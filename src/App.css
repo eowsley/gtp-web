@@ -16,3 +16,12 @@ body {
 h1 {
   font-family: 'Fira Sans', sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+  .app__container {
+    width: 100%;
+  }
+}

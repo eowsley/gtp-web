@@ -50,3 +50,23 @@
     background-color: rgba(218, 218, 218, 0.5);
     transition: color 0.3s linear;
 }
+
+@media only screen and (max-width: 600px) {
+    .aboutus__div {
+        height: 40vh;
+        width: 100vw;
+    }
+   .aboutus__h3 {
+    font-size: 1em;
+}
+
+.aboutus__p {
+    font-size: .5em;
+}
+
+.aboutus__btn {
+    height: 2.5em;
+    width: 10em;
+    font-size: .7em;
+}
+}

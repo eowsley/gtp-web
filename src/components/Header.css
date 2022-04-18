@@ -36,3 +36,18 @@
     height: auto;
     grid-column: 2;
 }
+
+@media only screen and (max-width: 600px) {
+ .header__div{
+ 
+    }
+ .header__h1 {
+      font-size: 1.5em;
+  }
+  .header__h2 {
+    width: 100%;
+  }
+  .header__logo__img {
+    padding-top: 0;
+  }
+}
