@@ -1,7 +1,7 @@
 .workingwithus__container {
     display: grid;
     grid-template-columns: .5fr 1fr 1fr .5fr;
-    grid-template-rows: 1.5fr 1fr .7fr .5fr 1fr .5fr 1fr .5fr 1fr 2fr;
+    grid-template-rows: 1.3fr 1fr .7fr .5fr 1fr .5fr 1fr .5fr 1fr ;
 }
 
 .workingwithus__heroimg {
@@ -43,9 +43,12 @@
 }
 .workingwithus__ul {
     padding-left: 2em;
+    list-style-type: circle;
+    
 }
 .workingwithus__li {
     font-size: .8em;
+    cursor: pointer;
 }
 
 .workingwithus__model1 {
@@ -60,7 +63,6 @@
     background-size: cover ;
     background-position: center;
     width: 95%;
-
 }
 
 .workingwithus__img1__2 {
@@ -69,8 +71,6 @@
     background-image: url(./assets/wwu-img1-2.jpeg);
     background-size: cover;
     background-position: center;
-
-
 }
 .workingwithus__model2 {
     grid-row: 6;
@@ -114,9 +114,4 @@
 
 .workingwithus__spanbold {
     font-weight: bold;
-    padding-left: 0em;
-}
-.workingwithus__team {
-    grid-row: 10;
-    grid-column: 2 /span 2;
 }
