@@ -71,6 +71,11 @@ input {
     color: rgb(53, 53, 53);
 }
 
-@media screen {
-    
+@media only screen and (max-width: 600px) {
+.contact__div, form , label, h2, input, .contact__inputcomment {
+    width: 100vw;
+    margin: 0 auto;
+    padding-left: 0em;
+}
+
 }
