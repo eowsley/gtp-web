@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 600px) {
  .header__div{
- 
+    width: 100vw;
     }
  .header__h1 {
       font-size: 1.5em;

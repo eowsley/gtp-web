@@ -39,7 +39,7 @@ input {
     height: 12em;
 }
 .contact__inputcomment input {
-
+    border:1px rgb(180, 180, 180) solid;
     width: 50em;
     height: 12em;
 }
@@ -72,10 +72,20 @@ input {
 }
 
 @media only screen and (max-width: 600px) {
-.contact__div, form , label, h2, input, .contact__inputcomment {
+
+.contact__div {
     width: 100vw;
-    margin: 0 auto;
-    padding-left: 0em;
+}
+form, label, input {
+    padding-left: .5em;
+    width:100%;
+}
+.contact__heroimg {
+    width: 110vw;
 }
 
+
+.contact__h2, .contact__inputcomment , #name ,#email {
+    width: 100vw;
+}
 }

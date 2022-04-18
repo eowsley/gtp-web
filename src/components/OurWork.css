@@ -108,3 +108,11 @@
     height: 30vh;
     margin-bottom: 2em;
 }
+
+@media only screen and (max-width: 600px) {
+.ourwork__div {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr .5fr;
+    grid-template-rows: 1.5fr .25fr .25fr .1fr .5fr .1fr .5fr .1fr .5fr .1fr .5fr .1fr .5fr;
+}
+}
