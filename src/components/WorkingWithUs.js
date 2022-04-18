@@ -11,7 +11,7 @@ function WorkingWithUs(props) {
 					<p className='workingwithus__p'>
 						We have a team of product management, UI/UX design, project
 						management, software development, quality assurance and site
-						reliability professionals that will partner with you in:{' '}
+						reliability professionals that will partner with you in:
 					</p>
 					<ul className='workingwithus__ul'>
 						<li className='workingwithus__li'>
@@ -39,9 +39,8 @@ function WorkingWithUs(props) {
 					<h3 className='workingwithus__h3'>We offer 3 models:</h3>
 					<ul className='workingwithus__ul'>
 						<li className='workingwithus__li'>
-							<span className='workingwithus__spanbold'>
-								Full end-to-end product outsourcing:
-							</span><br/>
+							
+							Full end-to-end product outsourcing:<br/>
 							We will assign a full product POD that includes a Product Manager,
 							UI/UX designer, a Software Development/QA/SRE Team, and a Project
 							Manager that will specify, design, build and deliver the product
@@ -56,9 +55,8 @@ function WorkingWithUs(props) {
 				<div className='workingwithus__model2'>
 					<ul>
 						<li className='workingwithus__li'>
-							<span className='workingwithus__spanbold'>
-								Software project outsourcing: 
-							</span><br/>
+							Software project outsourcing: 
+							<br/>
 							We can build the whole project for you while partnering with you
 							based on your requirements and designs. We will ensure that will
 							stay in close sync by providing updates every sprint. This is most
@@ -74,9 +72,8 @@ function WorkingWithUs(props) {
 				<div className='workingwithus__model3'>
 					<ul>
 						<li className='workingwithus__li'>
-							<span className='workingwithus__spanbold'>
-								Team augmentation: 
-							</span><br/>
+							Team augmentation: 
+							<br/>
 							We can augment your staff by assigning full-time and part-time
 							highly trained professionals for frontend development, backend
 							development, quality assurance, database engineers, and site

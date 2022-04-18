@@ -1,7 +1,7 @@
 .ourwork__div {
     display: grid;
     grid-template-columns: .5fr 1.5fr .5fr;
-    grid-template-rows: 2fr .5fr .25fr .5fr .5fr .5fr .5fr .5fr;
+    grid-template-rows: 1.5fr .5fr .25fr .1fr .5fr .1fr .5fr .1fr .5fr .1fr .5fr .1fr .5fr;
 }
 
 .ourwork__heroimg {
@@ -11,4 +11,100 @@
     background-position: center;
     background-size: cover;
     height: 50vh;
+}
+
+.ourwork__h2 {
+    grid-column: 2;
+    grid-row: 2;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+}
+.ourwork__p {
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+}
+
+.ourwork__ex1 {
+    grid-column: 2;
+    grid-row: 4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourwork__ex1img {
+    grid-column: 2;
+    grid-row: 5;
+    background-image: url(./assets/our-work-ex1.png);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 2em;
+}
+.ourwork__ex2 {
+    grid-column: 2;
+    grid-row: 6;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourwork__ex2img {
+    grid-column: 2;
+    grid-row: 7;
+    background-image: url(./assets/our-work-ex2.png);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 2em;
+}
+.ourwork__ex3 {
+    grid-column: 2;
+    grid-row: 8;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourwork__ex3img {
+    grid-column: 2;
+    grid-row: 9;
+    background-image: url(./assets/our-work-ex3.png);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 2em;
+}
+.ourwork__ex4 {
+    grid-column: 2;
+    grid-row: 10;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourwork__ex4img {
+    grid-column: 2;
+    grid-row: 11;
+    background-image: url(./assets/our-work-ex4.png);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 2em;
+}
+
+.ourwork__ex5 {
+    grid-column: 2;
+    grid-row: 12;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ourwork__ex5img {
+    grid-column: 2;
+    grid-row: 13;
+    background-image: url(./assets/our-work-ex5.png);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 2em;
 }
