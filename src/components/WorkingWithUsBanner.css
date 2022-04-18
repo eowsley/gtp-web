@@ -30,5 +30,9 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
-    
+    .workingwithusbanner__div {
+        font-size: 2em;
+        height: 15vh;
+        padding-top: .5em;
+    }
 }

@@ -115,3 +115,63 @@
 .workingwithus__spanbold {
     font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {
+.workingwithus__container {
+    margin: 0 auto;
+width: 100vw;
+display: grid;
+grid-template-columns: .5fr 1fr 1fr .5fr;
+grid-template-rows: .5fr 1fr .5fr .5fr .5fr .5fr .5fr .5fr .5fr ;
+}
+.workingwithus__heroimg {
+width: 100vw;
+
+}
+.workingwithus__img1__1 {
+grid-row: 5;
+grid-column: 1/span 2;
+}
+.workingwithus__model1 {
+    padding-top:2em;
+    grid-row: 4;
+    grid-column: 1 /span 4;
+}
+.workingwithus__img1__2 {
+    grid-row: 5;
+    grid-column: 3/ span 2;
+
+}
+.workingwithus__model2 {
+    grid-row: 6;
+    grid-column: 1 /span 4;
+    padding-top: 2em;
+}
+.workingwithus__img2__1 {
+    grid-row: 7;
+    grid-column: 1 /span 2;
+
+}
+
+.workingwithus__img2__2 {
+    grid-row: 7;
+    grid-column: 3 / span 2;
+
+}
+.workingwithus__model3 {
+    padding-top: 2em;
+    grid-row: 8;
+    grid-column: 1 /span 4;
+}
+.workingwithus__img3__1 {
+    grid-row: 9;
+    grid-column: 1 /span 2;
+
+}
+
+.workingwithus__img3__2 {
+    grid-row: 9;
+    grid-column: 3 /span 2;
+
+}
+}
