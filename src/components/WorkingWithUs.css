@@ -1,7 +1,7 @@
 .workingwithus__container {
     display: grid;
     grid-template-columns: .5fr 1fr 1fr .5fr;
-    grid-template-rows: 1.5fr 1fr .7fr .5fr 1fr .5fr 1fr .5fr 1fr 2fr;
+    grid-template-rows: 1.5fr 1fr .7fr .5fr 1fr .5fr 1fr .5fr 1fr ;
 }
 
 .workingwithus__heroimg {

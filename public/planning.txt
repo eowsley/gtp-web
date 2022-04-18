@@ -25,4 +25,16 @@ ROW
     7 image -.5fr
     8 Model 3- .5fr
     9 image -.5fr
-    10 Meet the team - 1fr
+
+
+Our Work Layout - grid
+COL .5 1.5 .5
+ROW 
+    1 hero img - 2fr
+    2 h2 .5fr
+    3 p .25fr
+    4 ex 1 .5fr
+    5 ex 2 .5fr
+    6 es 3 .5fr
+    7 ex 4 .5fr
+    8 ex 5 .5fr

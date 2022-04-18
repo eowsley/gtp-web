@@ -1,0 +1,14 @@
+.ourwork__div {
+    display: grid;
+    grid-template-columns: .5fr 1.5fr .5fr;
+    grid-template-rows: 2fr .5fr .25fr .5fr .5fr .5fr .5fr .5fr;
+}
+
+.ourwork__heroimg {
+    grid-column: 1 /span 3;
+    grid-row: 1;
+    background-image: url(./assets/our-work-hero.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
