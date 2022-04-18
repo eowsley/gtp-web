@@ -28,3 +28,12 @@ a {
     margin: 0 auto;
     padding-top: 1.5em;
 }
+
+@media only screen and (max-width: 500px) {
+    .workingwithusbanner__div {
+        font-size: 2em;
+        height: 15vh;
+        padding-top: .5em;
+        width: 100vw;
+    }
+}
