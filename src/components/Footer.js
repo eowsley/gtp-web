@@ -5,28 +5,54 @@ import { FaMapMarkerAlt, FaMobileAlt, FaEnvelope } from 'react-icons/fa';
 
 function Footer(props) {
 
+    // return (
+    //     <div className='footer__div' id="footer">
+
+    //             <ul className='footer_info' id="info">
+    //                 <li>
+    //                 <FaMapMarkerAlt className='location-dot'/>
+    //                     {/* <i className='fa-solid fa-location-dot'></i> */}
+    //                     274 Redwood Shores Parkway #504, Redwood City, CA 94065
+    //                 </li>
+    //                 <li>
+    //                     <FaMobileAlt className='mobile-icon'/>
+    //                     {/* <i className='fa-solid fa-mobile-screen-button'></i> */}
+    //                     650-339-3768
+    //                 </li>
+    //                 <li>
+    //                 <FaEnvelope className='envelope-icon' />
+    //                     llin@globalpartner.com
+    //                 </li>
+    //             </ul>
+
+    //     </div>
+     
+    // );
+
     return (
         <div className='footer__div' id="footer">
 
-                <ul className='footer_info' id="info">
+            <div className='footer_info' id="info">
+                
+                <ul>
                     <li>
-                    <FaMapMarkerAlt />
-                        {/* <i className='fa-solid fa-location-dot'></i> */}
+                        <FaMapMarkerAlt className='location-dot' />
                         274 Redwood Shores Parkway #504, Redwood City, CA 94065
                     </li>
                     <li>
-                        <FaMobileAlt />
-                        {/* <i className='fa-solid fa-mobile-screen-button'></i> */}
+                        <FaMobileAlt className='mobile-icon' />
                         650-339-3768
                     </li>
                     <li>
-                    <FaEnvelope />
+                        <FaEnvelope className='envelope-icon' />
                         llin@globalpartner.com
                     </li>
                 </ul>
+                
+            </div>
 
         </div>
-     
+
     );
 }
 
