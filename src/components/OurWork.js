@@ -10,7 +10,7 @@ function OurWork(props) {
 				<div className='ourwork__ex1'>Social Communications Platform</div>
 				<dev className='ourwork__ex1img'></dev>
 				<div className='ourwork__ex2'>Mentor Marketplace</div>
-				<dev className='ourwork__ex2img'></dev>
+				<div className='ourwork__ex2img'></div>
 				<div className='ourwork__ex3'>Parking On Demand</div>
 				<dev className='ourwork__ex3img'></dev>
 				<div className='ourwork__ex4'>Food Catering Platform</div>
